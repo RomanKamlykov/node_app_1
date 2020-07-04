@@ -9,7 +9,7 @@ The application uses:
 - SCSS and Bootstrap for styling
 
 ## Usage
-1. Upload a price list to the database using the "price.xlsx" excel file, you can get one [here](https://github.com/RomanKamlykov/...)
+1. Upload a price list to the database using the "price.xlsx" excel file, you can get one [here](https://github.com/RomanKamlykov/node_app_1/raw/master/price.xlsx)
 ![](upload.jpg)
 
 2. Type in keywords and press the "Enter" key to request products from the server,  
