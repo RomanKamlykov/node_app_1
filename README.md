@@ -9,14 +9,14 @@ The application uses:
 - SCSS and Bootstrap for styling
 
 ## Usage
-1. Upload a price list to the database using the "price.xlsx" excel file, you can get one [here](https://github.com/RomanKamlykov/node_app_1/raw/master/price.xlsx)
+1. Upload a price list to the database using the "price.xlsx" excel file, you can get one [here](https://github.com/RomanKamlykov/node_app_1/raw/master/price.xlsx)  
 ![](upload.jpg)
 
 2. Type in keywords and press the "Enter" key to request products from the server,  
-you can type in multiple space separated words in the "Title" field in order to specify the request
+you can type in multiple space separated words in the "Title" field in order to specify the request  
 ![](search.jpg)
 
-3. Click the "Load more..." button to request 10 additional products
+3. Click the "Load more..." button to request 10 additional products  
 ![](loadmore.jpg)
 
 ## Development
