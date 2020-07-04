@@ -28,7 +28,9 @@ app.use('/api/upload', upload.single('price'), errorsHandler, uploadRoute)
 // ----- handle production -----
 if(config.NODE_ENV === 'production') {
   app.use(express.static(__dirname + '/public')) // static folder
-  app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html')) // handle SPA
+  app.get('*', (req, res) => { // handle SPA
+    res.sendFile(__dirname + '/public/index.html')
+  })
 }
 
 app.listen( config.PORT, () => console.log(`Server started on port ${config.PORT}`) )

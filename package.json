@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node",
-    "server": "nodemon",
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "client": "http-server ./public --cors='*' -o",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
